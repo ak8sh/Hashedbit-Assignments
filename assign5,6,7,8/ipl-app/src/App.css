@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.table-container {
+  background: rgb(252, 213, 213);
+  padding: 20px;
+  border-radius: 10px;
+  width: 700px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #f57059;
+  color: white;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}

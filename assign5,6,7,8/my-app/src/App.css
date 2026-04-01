@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* Main layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* Calculator Card */
+.calculator {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+}
+
+/* Title */
+.calculator h2 {
+  margin-bottom: 15px;
+}
+
+/* Inputs */
+.calculator input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* Buttons Grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Buttons */
+.buttons button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background: #357abd;
+}
+
+/* Clear Button */
+.clear-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #f37163;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background: #c0392b;
+}
+
+/* Result */
+.result {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.todo-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+/* Top buttons */
+.nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.nav button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+}
+
+.nav button:hover {
+  background: #357abd;
+}
+
+/* Center content */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Todo Card */
+.todo-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Input section */
+.todo-container input {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.todo-container button {
+  padding: 8px 10px;
+  margin-left: 5px;
+  border: none;
+  background: #2ecc71;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-container button:hover {
+  background: #27ae60;
+}
+
+/* List */
+.todo-container ul {
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-container li {
+  background: #f9f9f9;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Delete button */
+.todo-container li button {
+  background: #e74c3c;
+}
+
+.todo-container li button:hover {
+  background: #c0392b;
+}
